@@ -1,0 +1,14 @@
+{
+  "name": "skhan943-se3314b-assignment3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "open": "^7.4.2"
+  }
+}
