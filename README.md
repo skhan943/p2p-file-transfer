@@ -50,7 +50,7 @@ When a peer wants a file, it initiates a search by sending a request for the fil
     npm install
     ```
 
-### Running the Project
+## Running the Project
 
 ### Starting a Peer
 
