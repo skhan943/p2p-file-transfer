@@ -2,6 +2,8 @@
 
 This project demonstrates a file transfer system within a Kademlia peer-to-peer (P2P) network. The system allows peers to join the network, share files, and request files from other peers. The implementation includes functionalities for handling peer connections, file transfer requests, and maintaining the Distributed Hash Table (DHT) used by the Kademlia protocol.
 
+**Click [here](https://www.youtube.com/watch?v=uPcfkwZq3TE) to see a quick demo of the file transfers taking place.**
+
 ## Features
 
 - **Peer-to-Peer Connections**: Establish connections between multiple peers.
@@ -28,8 +30,6 @@ Peers store files, similar to saving a picture on your phone. Each file gets a u
 
 #### File Search and Retrieval:
 When a peer wants a file, it initiates a search by sending a request for the file’s unique name (key). This request travels through the network, hopping from friend to friend, getting closer to the peer that has the file. Once a peer with the file is found, it sends the file back to the requesting peer.
-
-**Click [here](https://www.youtube.com/watch?v=uPcfkwZq3TE) to see a quick demo of the file transfers taking place.**
 
 ## Getting Started
 
